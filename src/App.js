@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <Switch>
+      <Switch onUpdate={() => window.scrollTo(0, 0)}>
         <Route exact path="/" component={Home} />
         <Route exact path="/rooms/" component={Rooms} />
         <Route exact path="/rooms/:id" component={SingleRoom} />

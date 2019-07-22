@@ -5,12 +5,16 @@ import { BrowserRouter as Router } from "react-router-dom"
 import App from "./App"
 import * as serviceWorker from "./serviceWorker"
 
+import ScrollToTop from "./ScrollToTop"
+
 import { RoomProvider } from "./context"
 
 ReactDOM.render(
   <RoomProvider>
     <Router>
-      <App />
+      <ScrollToTop>
+        <App />
+      </ScrollToTop>
     </Router>
   </RoomProvider>,
   document.getElementById("root")
