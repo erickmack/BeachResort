@@ -8,7 +8,7 @@
 
 > A concept for a beach resort website
 
-### 🏠 [Homepage](https://github.com/erickmack/resort)
+### 🏠 [Homepage](https://github.com/erickmack/BeachResort)
 
 ## Install
 
