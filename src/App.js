@@ -14,10 +14,10 @@ function App() {
   return (
     <>
       <Navbar />
-      <Switch onUpdate={() => window.scrollTo(0, 0)}>
+      <Switch>
         <Route exact path="/BeachResort" component={Home} />
-        <Route exact path="/rooms/" component={Rooms} />
-        <Route exact path="/rooms/:id" component={SingleRoom} />
+        <Route exact path="/BeachResort/rooms/" component={Rooms} />
+        <Route exact path="/BeachResort/rooms/:id" component={SingleRoom} />
         <Route component={Error} />
       </Switch>
     </>
