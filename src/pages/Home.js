@@ -14,7 +14,7 @@ export default function Home() {
           title="luxurious rooms"
           subtitle="deluxe rooms starting at $299"
         >
-          <Link to="BeachResort/rooms" className="btn-primary">
+          <Link to="/rooms" className="btn-primary">
             our rooms
           </Link>
         </Banner>

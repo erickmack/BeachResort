@@ -22,7 +22,7 @@ export default class SingleRoom extends Component {
       return (
         <div className="error">
           <h3>No such room could be found</h3>
-          <Link to="/BeachResort/rooms" className="btn-primary">
+          <Link to="/rooms" className="btn-primary">
             Back to rooms
           </Link>
         </div>
@@ -44,7 +44,7 @@ export default class SingleRoom extends Component {
       <>
         <StyledHero img={mainImg}>
           <Banner title={`${name} room`}>
-            <Link to="/BeachResort/rooms" className="btn-primary">
+            <Link to="/rooms" className="btn-primary">
               back to rooms
             </Link>
           </Banner>
